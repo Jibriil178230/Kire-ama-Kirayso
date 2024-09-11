@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kire ama Kirayso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kire ama Kirayso</h1>
+        <p>Website-kan waa bilaash.</p>
+        <button id="modeToggle">Dark Mode</button>
+    </header>
+    
+    <section class="login">
+        <h2>Gal</h2>
+        <form id="loginForm" action="#">
+            <input type="text" id="phoneNumber" placeholder="Geli lambarkaaga telefoonka" required>
+            <button type="submit">Gal</button>
+        </form>
+    </section>
+    
+    <section class="cities">
+        <h2>Dooro Magaalo</h2>
+        <div class="city-grid">
+            <div class="city" data-city="Hargaisa">Hargaisa</div>
+            <div class="city" data-city="Burco">Burco</div>
+            <div class="city" data-city="Boorame">Boorame</div>
+            <div class="city" data-city="Gabilay">Gabilay</div>
+            <div class="city" data-city="Ceerigaabo">Ceerigaabo</div>
+            <div class="city" data-city="Barbera">Barbera</div>
+        </div>
+    </section>
+
+    <section class="property-slideshow">
+        <h2>Hantida La Soo Bandhigay</h2>
+        <div id="slideshow" class="slideshow">
+            <!-- Slideshow images will be dynamically added here -->
+        </div>
+    </section>
+
+    <section class="contact-admin">
+        <h2>La Xiriir Maamulka</h2>
+        <form id="contactForm" action="#">
+            <textarea id="message" placeholder="Fariin u dir maamulka" required></textarea>
+            <button type="submit">Dir Fariin</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>La xiriir: <a href="tel:0636349888">0636349888</a></p>
+        <p>Email: <a href="mailto:info@kireamakiraysoadu.com">info@kireamakiraysoadu.com</a></p>
+        <div class="qr-code">
+            <img src="https://via.placeholder.com/100" alt="QR Code">
+        </div>
+        <p><a href="#" id="qrLink">QR Code</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
